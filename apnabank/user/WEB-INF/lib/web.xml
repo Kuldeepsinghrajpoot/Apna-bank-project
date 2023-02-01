@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<servlet>   
+    <servlet-name>index</servlet-name>
+    <jsp-file>/user/index.jsp</jsp-file>
+  </servlet>

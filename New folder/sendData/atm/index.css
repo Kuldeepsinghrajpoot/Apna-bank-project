@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(50, 182, 235);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lap {
+    background-color: #000;
+    border-radius: 20px;
+}
+
+#box1 {
+    height: 180px;
+    width: 350px;
+    /* background-image: linear-gradient(black, black); */
+    background: url(./map.png);
+    background-size: cover;
+    /* border-radius: 15px; */
+    /*   display:none; */
+}
+
+.box2 {
+    color: white;
+    margin-top: 17px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*   background-color: #fff; */
+}
+
+#visa {
+    font-size: 35px;
+    /*   background-color:white; */
+    color: whitesmoke;
+    height: 29px;
+    display: flex;
+    width: 39px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.box2 img {
+    width: 45px;
+    margin-left: 30px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.number span {
+    justify-content: space-around;
+    color: #fff;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#wifi {
+    transform: rotate(90deg);
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 8px;
+    color: white;
+}
+
+footer span p {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#box2 {
+    height: 200px;
+    width: 350px;
+    background-color: black;
+    border-radius: 15px;
+    display: none;
+}
+
+#box2 .box2 {
+    color: white;
+    margin-top: 12px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#box2 #visa {
+    font-size: 35px;
+    background-color: white;
+    color: white;
+    height: 29px;
+    display: flex;
+    width: 39px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 30px;
+    /*   display:none; */
+    /*   visibility: hidden; */
+}
+
+#box2 header {
+    display: flex;
+    margin-top: 10px;
+    font-size: 11px
+    /*   display:none; */
+}
+
+#box2 #box2 header p {
+    color: white;
+    font-size: 10px;
+    font-family: serif;
+    /*   margin-left: 30px; */
+    /*   margin-top: 20px; */
+    /*   margin-right: 30px; */
+}
+
+#box2 .box2 img {
+    width: 35px;
+    margin-left: 30px;
+    visibility: hidden;
+}
+
+#box2 .number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: .1px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+#box2 .number span {
+    justify-content: space-around;
+    color: #fff;
+    font-style: bold;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    background-color: #fff;
+    padding-left: 11.72px;
+    padding-right: 15px;
+}
+
+#box2 #wifi {
+    transform: rotate(90deg);
+    font-size: 18px;
+    margin-left: 5px;
+    display: none;
+}
+
+#box2 footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    color: white;
+}
+
+#box2 footer span p {
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+#box2 #span1 {
+    background-color: #fff;
+    padding-left: 60px;
+    color: whitesmoke;
+}
+
+#box2 #span1 span {
+    color: white;
+    font-size: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.lap:hover~#box2 {
+    display: block;
+    margin-left: 20px;
+}

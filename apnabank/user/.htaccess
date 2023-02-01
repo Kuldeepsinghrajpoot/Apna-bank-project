@@ -1,0 +1,6 @@
+RewriteCond %{REQUEST_URI} !^/.*\.(jsp)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME}.jsp -f
+RewriteRule ^(.+)$ /$1.jsp [PT,QSA,L]
+RewriteRule ^([0-9a-zA-Z]+)$  $1.jsp
